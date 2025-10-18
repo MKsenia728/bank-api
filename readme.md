@@ -44,6 +44,8 @@ For currency, as well as for rounding, use the BigDecimal class.
 
 ### Swagger
 
+### Mockito
+
 ---
 
 ## Database structure
