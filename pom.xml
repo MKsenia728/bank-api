@@ -8,11 +8,11 @@
         <version>3.0.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>bank_application</artifactId>
+    <groupId>com.oksanamolchanova</groupId>
+    <artifactId>bank-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bank_application</name>
-    <description>bank_application</description>
+    <name>bank-api</name>
+    <description>REST API for managing clients, accounts, and managers in a banking system</description>
     <properties>
         <java.version>17</java.version>
 
