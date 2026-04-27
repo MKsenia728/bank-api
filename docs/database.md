@@ -1,53 +1,3 @@
-# Bank Project [Backend]
-
-There is a prototype of the BackEnd Bank's Core Services data.
-
-Data consist of clients, accounts, products, accounts, transactions and managers
-For currency, as well as for rounding, use the BigDecimal class.
-
----
-
-## Database queries implemented
-
-### Accounts
-
-1. GET: Find account by id
-2. GET: Find account by name
-3. GET: Find all names of accounts
-4. GET: Find all accounts by status
-5. POST: Create new account
-6. PUT: Upgreate (change status to BLOCKED) for all accounts with given status and product id
-
-### Clients
-
-1. GET: Find all clients with balance more than given value and given currency
-
-### Managers
-
-1. GET: Find manager by id
-2. GET: Find all managers with clients
-3. POST: Create new manager
-
----
-
-## Used libraries, frameworks, technologies
-
-### Spring-boot
-
-### Hibernate
-
-### Liquibase
-
-### Jacoco
-
-### Mapstruct
-
-### Swagger
-
-### Mockito
-
----
-
 ## Database structure
 
 ### Table clients ( Bank's Clients table )
@@ -136,3 +86,25 @@ For currency, as well as for rounding, use the BigDecimal class.
 | id          | int  | id key of row - unique, not null, primary key |
 | manager_id  | int  | manager id (table managers)                   |
 | product_id  | int  | product id (table products)                   |
+
+
+## Database queries implemented
+
+### Accounts
+
+1. GET: Find account by id
+2. GET: Find account by name
+3. GET: Find all names of accounts
+4. GET: Find all accounts by status
+5. POST: Create new account
+6. PUT: Upgreate (change status to BLOCKED) for all accounts with given status and product id
+
+### Clients
+
+1. GET: Find all clients with balance more than given value and given currency
+
+### Managers
+
+1. GET: Find manager by id
+2. GET: Find all managers with clients
+3. POST: Create new manager
